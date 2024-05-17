@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(240, 230, 213);
+  font-family: "Montserrat", "Barlow Condensed", sans-serif;
+}
+.main-pic {
+  background-color: rgb(240, 230, 213);
+  border-radius: 0%;
+}
+nav {
+  font-family: "barlow condensed";
+  font-size: medium;
+}
+
+.name-logo {
+  font-family: "montserrat";
+  font-size: 91px;
+}
+
+.fa {
+  padding: 0px;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: white;
+  color: black;
+}
+.fa-instagram {
+  background: white;
+  color: black;
+}
+.fa-linkedin {
+  background: white;
+  color: black;
+}
+@media (max-width: 390px) {
+  .name-logo-pt {
+    padding-top: 0px;
+  }
+  .name-logo {
+    font-size: 20px;
+    margin-bottom: 3px;
+  }
+  .glance {
+    font-size: 10px;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .name-logo {
+    font-size: 60px;
+  }
+  .glance {
+    font-size: 15px;
+  }
+}
