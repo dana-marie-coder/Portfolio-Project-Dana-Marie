@@ -1,25 +1,37 @@
 body {
-  background-color: rgb(240, 230, 213);
+  background-color: #f0e7d5;
   font-family: "Montserrat", "Barlow Condensed", sans-serif;
 }
-.main-pic {
-  background-color: rgb(240, 230, 213);
-  border-radius: 0%;
-}
+
 nav {
   font-family: "barlow condensed";
   font-size: medium;
 }
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: white;
+  font-family: "Montserrat";
+}
+h4 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Barlow Condensed";
+}
+img {
+  border-radius: 15px;
+}
 
-.name-logo {
-  font-family: "montserrat";
-  font-size: 91px;
+footer {
+  background-color: white;
+  margin-top: 5px;
 }
 
 .fa {
-  padding: 0px;
-  font-size: 30px;
-  width: 100%;
+  display: block;
+  margin: 0 auto;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
 }
@@ -38,24 +50,6 @@ nav {
   background: white;
   color: black;
 }
-@media (max-width: 390px) {
-  .name-logo-pt {
-    padding-top: 0px;
-  }
-  .name-logo {
-    font-size: 20px;
-    margin-bottom: 3px;
-  }
-  .glance {
-    font-size: 10px;
-    padding-top: 0px;
-  }
-}
+
 @media (max-width: 576px) {
-  .name-logo {
-    font-size: 60px;
-  }
-  .glance {
-    font-size: 15px;
-  }
 }
