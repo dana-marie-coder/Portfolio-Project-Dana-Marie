@@ -2,22 +2,30 @@ body {
   background-color: #f0e7d5;
   font-family: "Montserrat", "Barlow Condensed", sans-serif;
 }
-
+.n-color {
+  background-color: white;
+}
 nav {
-  font-family: "barlow condensed";
+  font-family: "Montserrat";
   font-size: medium;
 }
+.logo-d {
+  font-family: "Great Vibes";
+  font-weight: 400;
+  font-size: 50px;
+}
 h1 {
+  padding-top: 10px;
   text-align: center;
   font-size: 100px;
   color: white;
-  font-family: "Montserrat";
+  font-family: "Great Vibes";
 }
 h4 {
   text-align: center;
   color: white;
   font-size: 30px;
-  font-family: "Barlow Condensed";
+  font-family: "Montserrat";
 }
 img {
   border-radius: 15px;
