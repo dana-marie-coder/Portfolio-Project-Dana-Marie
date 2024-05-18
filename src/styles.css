@@ -1,46 +1,51 @@
-root {
+:root {
+  --main-background-color: #f0e7d5;
+  --heading-font-family: "Great Vibes", "Montserrat", serif;
+  --paragraph-font-family: "Barlow Condensed", "Montserrat", sans-serif;
+  --nav-background-color: white;
 }
 
 body {
-  background-color: #f0e7d5;
-  font-family: "Montserrat", "Barlow Condensed", sans-serif;
+  background-color: var(--main-background-color);
+  font-family: var(--paragraph-font-family);
 }
 .n-color {
-  background-color: white;
+  background-color: var(--nav-background-color);
 }
 nav {
-  font-family: "Montserrat";
-  font-size: medium;
+  font-family: var(--paragraph-font-family);
+  font-size: 20px;
 }
 .logo-d {
-  font-family: "Great Vibes";
-  font-weight: 300px;
+  font-family: var(--heading-font-family);
+
   padding-right: 30px;
   font-size: 30px;
 }
 h1 {
   font-size: 54px;
   color: white;
-  font-family: "Great Vibes";
+  font-family: var(--heading-font-family);
   margin: 0px;
 }
 .sub-head {
   color: white;
   font-size: 15px;
-  font-family: "Barlow Condensed";
+  font-family: var(--paragraph-font-family);
 }
 .top-pic {
   border-radius: 0%;
 }
-img {
-}
+
 .sub-head2 {
   color: white;
-  font-size: 20px;
-  font-family: "Barlow Condensed";
+  font-size: 30px;
+  font-family: var(--paragraph-font-family);
   margin-top: 15px;
   margin-bottom: 15px;
   text-align: center;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .hero {
   text-align: center;
@@ -53,7 +58,7 @@ img {
   cursor: pointer;
 }
 footer {
-  background-color: white;
+  background-color: var(--nav-background-color);
   margin-top: 5px;
 }
 
@@ -93,10 +98,13 @@ footer {
     margin-top: 60px;
     margin-bottom: 60px;
   }
+  .email-me {
+    font-size: 30px;
+  }
 }
 @media (max-width: 300px) {
   h1 {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 5px;
   }
   .sub-head {
