@@ -18,9 +18,9 @@ nav {
 }
 .logo-d {
   font-family: var(--heading-font-family);
-
-  padding-right: 30px;
-  font-size: 30px;
+  color: #8c8f8f8c;
+  padding-right: 25px;
+  font-size: 25px;
 }
 h1 {
   font-size: 54px;
@@ -38,7 +38,7 @@ h1 {
 }
 
 .sub-head2 {
-  color: white;
+  color: #8c8f8f8c;
   font-size: 30px;
   font-family: var(--paragraph-font-family);
   margin-top: 15px;
@@ -49,13 +49,14 @@ h1 {
 }
 .hero {
   text-align: center;
-  margin-top: 55px;
+  margin-top: 48px;
 }
 .email-me {
   font-size: 18px;
 }
 .email-me:hover {
   cursor: pointer;
+  color: #8c8f8f8c;
 }
 footer {
   background-color: var(--nav-background-color);
@@ -125,4 +126,10 @@ footer {
   .email-me {
     font-size: 10px;
   }
+}
+
+.home-pics {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
 }
