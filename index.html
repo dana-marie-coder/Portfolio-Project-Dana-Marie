@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio - Dana-Marie Osborne</title>
+    <title>Front-End Developer Portfolio - Dana-Marie Osborne</title>
+    <meta
+      name="Front-End Developer, Coding Portfolio for Dana-Marie Osborne,about her life, past projects, certificates and skills attained while studing with SheCodes"
+      content="Dana-Marie Osborne, life, coding, skills, experience, projects, certificates."
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -34,10 +38,13 @@
     ></script>
   </head>
   <body>
-    <!-- Navigation bar section Starts-->
-    <nav class="navbar fixed-top navbar-expand-md p-0">
+    <nav class="navbar sticky-top navbar-expand-md p-0">
       <div class="container-fluid n-color">
-        <a class="navbar-brand" href="#"
+        <a
+          class="navbar-brand"
+          href="https://www.shecodes.io/graduates/42252-dana-marie-osborne"
+          target="_blank"
+          title="SheCodes Profile page for Dana-Marie Osborne, Graduate, Certificates, Skills"
           ><strong class="logo-d">Dana-Marie</strong></a
         >
         <button
@@ -72,37 +79,38 @@
         </div>
       </div>
     </nav>
-    <!-- Navagation bar section Ends -->
-    <!-- Main header section Starts -->
-    <div class="hero">
-      <div class="container-fluid g-0">
-        <div class="row">
-          <div class="col-md-12" <div class="card mx-auto">
-            <h1 class="card-img-overlay pt-2 mt-5">
-              Dana-Marie
-              <div class="sub-head">My life at a glance...</div>
-            </h1>
-            <img
-              src="/images/302085790_10224525658463628_8916810981393721960_n(1).jpg"
-              class="card-img-top img-fluid top-pic"
-              alt="..."
-            />
-          </div>
-        </div>
-      </div>
+    <div class="card mx-auto">
+      <h1 class="card-img-overlay text-center pt-2 mt-5 name">
+        Dana-Marie
+        <div class="sub-head">My life at a glance...</div>
+      </h1>
+      <img
+        src="/images/302085790_10224525658463628_8916810981393721960_n(1).jpg"
+        class="card-img-top img-fluid top-pic"
+        alt="..."
+      />
     </div>
+
     <!-- Main header section Starts -->
 
-    <h4 class="sub-head2">Front-End Developer, Brisbane, Australia</h4>
+    <h4 class="sub-head2">
+      Front-End Developer, <br />
+      based in Brisbane, Australia. <br />
+
+      <a href="/#contact-me" class="my-email">Contact Me</a>
+    </h4>
     <!-- Main Body Section  starts-->
     <div class="container mt-2 mb-5 pb-3 pic-container">
       <div class="row">
         <div class="col-md-6 mb-2">
-          <div class="card mx-auto" style="width: 18rem">
+          <div
+            class="card mx-auto shadow p-3 mb-5 bg-body rounded body-pic"
+            style="width: 18rem"
+          >
             <img
               src="/images/food.jpg"
               class="card-img-top home-pics"
-              alt="..."
+              alt="Food I love to eat"
             />
             <div class="card-body">
               <p class="card-text text-muted">Where I am from.</p>
@@ -111,11 +119,14 @@
           </div>
         </div>
         <div class="col-md-6 mb-2">
-          <div class="card mx-auto" style="width: 18rem">
+          <div
+            class="card mx-auto shadow p-3 mb-5 bg-body rounded body-pic"
+            style="width: 18rem"
+          >
             <img
               src="/images/fwend.jpg"
               class="card-img-top home-pics"
-              alt="..."
+              alt="Butterfly friend on a hike"
             />
             <div class="card-body">
               <p class="card-text text-muted">My Journey so far.</p>
@@ -124,13 +135,16 @@
           </div>
         </div>
       </div>
-      <div class="row justify-content-center">
+      <div class="row">
         <div class="col-md-6 mb-2">
-          <div class="card mx-auto" style="width: 18rem">
+          <div
+            class="card mx-auto shadow p-3 mb-5 bg-body rounded body-pic"
+            style="width: 18rem"
+          >
             <img
               src="/images/button.jpg"
               class="card-img-top home-pics"
-              alt="..."
+              alt="Button my furbaby"
             />
             <div class="card-body">
               <p class="card-text text-muted">Who Inspires me</p>
@@ -141,11 +155,14 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="card mx-auto" style="width: 18rem">
+          <div
+            class="card mx-auto shadow p-3 mb-5 bg-body rounded body-pic"
+            style="width: 18rem"
+          >
             <img
               src="/images/bridesmaids.jpg"
               class="card-img-top home-pics"
-              alt="..."
+              alt="Me & my Bridesmaids excited for the future"
             />
             <div class="card-body">
               <p class="card-text text-muted">Whats to come</p>
@@ -155,8 +172,12 @@
         </div>
       </div>
       <!-- Contact Me Email -->
-      <p class="pb-5 mb-5 mt-5 text-center">
-        <a href="mailto:danamarieosborne@gmail.com" class="email-me"
+      <p class="mb-5 mt-5 text-center contact-me">
+        Email or Follow me @ <br />
+        <a
+          href="mailto:danamarieosborne@gmail.com"
+          class="email-me"
+          id="contact-me"
           >danamarieosborne@gmail.com</a
         >
       </p>
@@ -167,14 +188,20 @@
       <a
         class="fa fa-linkedin d-inline me-5"
         href="https://www.linkedin.com/in/danamarieosborne"
+        target="_blank"
+        title="My Linkedin Profile"
       ></a>
       <a
         class="fa fa-facebook d-inline me-5"
         href="https://www.facebook.com/danamarie.osborne"
+        target="_blank"
+        title="My Facebook Profile"
       ></a>
       <a
         class="fa fa-instagram d-inline"
         href="https://www.instagram.com/danamarieosborne"
+        target="_blank"
+        title="My Instagram Profile"
       ></a>
     </footer>
     <!-- Footer Social Media Icon Links Starts -->
