@@ -25,7 +25,10 @@ nav {
   font-size: 20px;
   line-height: 0px;
 }
-.name {
+header {
+  border: 1px solid black;
+}
+.h1-heading {
   margin-top: 10px !important;
 }
 h1 {
@@ -33,6 +36,7 @@ h1 {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
 }
+
 .sub-head {
   color: var(--primary-color);
   font-size: 15px;
