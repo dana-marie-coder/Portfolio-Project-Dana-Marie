@@ -52,6 +52,17 @@ h1 {
   text-align: center;
   padding: 0px 5px;
 }
+.my-email {
+  color: var(--link-color);
+  font-size: 20px;
+  font-family: var(--paragraph-font-family);
+  text-decoration: none;
+}
+.my-email:hover {
+  color: var(--hover-color);
+  cursor: pointer;
+  text-decoration: underline;
+}
 .card {
   border: none;
 }
@@ -87,17 +98,6 @@ h1 {
 
 .h1-heading {
   margin-top: 10px !important;
-}
-.my-email {
-  color: var(--link-color);
-  font-size: 20px;
-  font-family: var(--paragraph-font-family);
-  text-decoration: none;
-}
-.my-email:hover {
-  color: var(--hover-color);
-  cursor: pointer;
-  text-decoration: underline;
 }
 .btn {
   background-color: var(--secondary-color);
