@@ -14,50 +14,36 @@ body {
   font-family: var(--paragraph-font-family);
 }
 
-nav {
-  font-family: var(--paragraph-font-family);
-  font-size: 20px;
-  background-color: var(--primary-color);
-}
 .logo-d {
   font-family: var(--heading-font-family);
   color: var(--secondary-color);
   font-size: 20px;
   line-height: 0px;
 }
-
-.about-title {
-  color: black;
+nav {
+  font-family: var(--paragraph-font-family);
+  font-size: 20px;
+  background-color: var(--primary-color);
 }
 .top-pic {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: 50vh;
-  object-fit: none;
+  height: 35vh;
+  object-fit: cover;
+  border-radius: 0%;
 }
-.h1-heading {
-  margin-top: 10px !important;
-}
-.pics-about {
-  display: block;
-  margin: 0 auto;
-}
+
 h1 {
   font-size: 53px;
   color: var(--primary-color);
   font-family: var(--heading-font-family);
 }
-
 .sub-head {
   color: var(--primary-color);
   font-size: 15px;
   font-family: var(--paragraph-font-family);
 }
-.top-pic {
-  border-radius: 0%;
-}
-
 .sub-head2 {
   color: var(--secondary-color);
   font-size: 25px;
@@ -66,7 +52,42 @@ h1 {
   text-align: center;
   padding: 0px 5px;
 }
+.card {
+  border: none;
+}
+.home-pics {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+}
+.pics-about {
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+}
 
+.p-title-about {
+  color: rgba(0, 0, 0, 0.411);
+  font-size: 30px;
+  font-family: var(--paragraph-font-family);
+  margin-top: 30px, 0px;
+  padding-left: 40px;
+  border: none;
+  text-align: center;
+}
+
+.p-about {
+  font: var(--paragraph-font-family);
+  font-size: 25px;
+  color: var(--secondary-color);
+  padding-left: 60px;
+  padding-right: 60px;
+  text-align: center;
+}
+
+.h1-heading {
+  margin-top: 10px !important;
+}
 .my-email {
   color: var(--link-color);
   font-size: 20px;
@@ -78,21 +99,11 @@ h1 {
   cursor: pointer;
   text-decoration: underline;
 }
-.card {
-  border: none;
-}
-.home-pics {
-  width: 100%;
-  height: 30vh;
-  object-fit: cover;
-}
-
 .btn {
   background-color: var(--secondary-color);
   border: none;
   box-shadow: var(--btn-box-shadow);
 }
-
 .btn:hover {
   background-color: var(--hover-color);
   cursor: pointer;
