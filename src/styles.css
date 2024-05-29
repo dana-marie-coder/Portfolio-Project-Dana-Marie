@@ -35,7 +35,7 @@ nav {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 100px;
   color: var(--primary-color);
   font-family: var(--heading-font-family);
 }
@@ -67,7 +67,7 @@ h3 {
   text-decoration: none;
 }
 .my-email:hover {
-  color: var(--hover-color);
+  color: #4fb4b25c;
   cursor: pointer;
   text-decoration: underline;
 }
@@ -122,17 +122,26 @@ h3 {
   box-shadow: var(--btn-box-shadow);
 }
 .btn:hover {
-  background-color: var(--hover-color);
+  background-color: #4fb4b25c;
   cursor: pointer;
 }
-
+.links {
+  color: #4fb4b25c;
+}
+.links:hover {
+  cursor: pointer;
+  color: #4fb4b25c;
+}
+.additional-links {
+  font-size: 25px;
+}
 .email-me {
   font-size: 25px;
   color: var(--link-color);
 }
 .email-me:hover {
   cursor: pointer;
-  color: var(--hover-color);
+  color: #4fb4b25c;
 }
 footer {
   background-color: var(--primary-color);
@@ -145,7 +154,7 @@ footer {
   text-decoration: none;
 }
 .fa:hover {
-  color: var(--hover-color);
+  color: #4fb4b25c;
 }
 .fa-facebook,
 .fa-instagram,
