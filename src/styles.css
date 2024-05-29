@@ -87,7 +87,7 @@ h3 {
   margin: 10px;
 }
 .landscape-title-img {
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 .portrait-title-img {
