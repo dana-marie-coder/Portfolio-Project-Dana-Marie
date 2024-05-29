@@ -29,15 +29,23 @@ nav {
   display: block;
   margin: 0 auto;
   max-width: 100%;
-  height: 35vh;
+  height: 45vh;
   object-fit: cover;
   border-radius: 0%;
 }
 
 h1 {
-  font-size: 53px;
+  font-size: 75px;
   color: var(--primary-color);
   font-family: var(--heading-font-family);
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+.title-container {
+  background-color: #4fb4b25c;
 }
 .sub-head {
   color: var(--primary-color);
@@ -71,10 +79,27 @@ h1 {
   height: 40vh;
   object-fit: cover;
 }
+.title-img {
+  border-radius: 10px;
+}
 .about-pics {
   padding: 10px;
   margin: 10px;
 }
+.landscape-title-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.portrait-title-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.square-title.img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
 .p-title-about {
   color: rgba(0, 0, 0, 0.411);
   font-size: 30px;
@@ -135,7 +160,7 @@ footer {
     margin-top: 30px;
   }
   .sub-head {
-    font-size: 30px;
+    font-size: 40px;
   }
   .sub-head2 {
     font-size: 50px;
@@ -156,13 +181,13 @@ footer {
     height: 38vh;
     object-fit: cover;
   }
+  .top-pic {
+    height: 55vh;
+  }
 }
 @media (max-width: 300px) {
   h1 {
-    font-size: 25px;
-  }
-  .sub-head {
-    display: none;
+    font-size: 35px;
   }
   .sub-head2 {
     font-size: 15px;
@@ -188,5 +213,8 @@ footer {
   }
   .pics-about {
     max-width: 375px;
+  }
+  .top-pic {
+    height: 25vh;
   }
 }
