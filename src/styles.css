@@ -53,6 +53,7 @@ h3 {
 .sub-head {
   color: var(--primary-color);
   font-size: 15px;
+  font-family: var(--paragraph-font-family);
 }
 .sub-head2 {
   color: var(--secondary-color);
